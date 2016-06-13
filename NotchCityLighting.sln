@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotchCityLighting.Web", "NotchCityLighting\NotchCityLighting.Web.csproj", "{65AA0515-87EF-4141-B11B-79F0A8197485}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "NotchCityLighting.Database", "NotchCityLighting.Database\NotchCityLighting.Database.sqlproj", "{C4DA2FE2-A51A-4E23-A0A9-6B9F892C79E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotchCityLighting.Common", "NotchCityLighting.Common\NotchCityLighting.Common.csproj", "{4688A703-77BE-4694-BC67-389AFB44D815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotchCityLighting.Core", "NotchCityLighting.Core\NotchCityLighting.Core.csproj", "{4E99E963-5734-4DAD-95F9-E4AB7D031733}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65AA0515-87EF-4141-B11B-79F0A8197485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65AA0515-87EF-4141-B11B-79F0A8197485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65AA0515-87EF-4141-B11B-79F0A8197485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65AA0515-87EF-4141-B11B-79F0A8197485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4DA2FE2-A51A-4E23-A0A9-6B9F892C79E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4DA2FE2-A51A-4E23-A0A9-6B9F892C79E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4DA2FE2-A51A-4E23-A0A9-6B9F892C79E5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C4DA2FE2-A51A-4E23-A0A9-6B9F892C79E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4DA2FE2-A51A-4E23-A0A9-6B9F892C79E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4DA2FE2-A51A-4E23-A0A9-6B9F892C79E5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4688A703-77BE-4694-BC67-389AFB44D815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4688A703-77BE-4694-BC67-389AFB44D815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4688A703-77BE-4694-BC67-389AFB44D815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4688A703-77BE-4694-BC67-389AFB44D815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E99E963-5734-4DAD-95F9-E4AB7D031733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E99E963-5734-4DAD-95F9-E4AB7D031733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E99E963-5734-4DAD-95F9-E4AB7D031733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E99E963-5734-4DAD-95F9-E4AB7D031733}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+﻿@model IEnumerable<NotchCityLighting.Core.Models.Light>
+@{
+    ViewBag.Title = "Light";
+}
+<div class="container">
+    <div class="row">
+        @foreach (var light in Model)
+        {
+        <div class="col s12 m6 l4">
+            <div class="card medium">
+                <div class="card-image">
+                    <img src="@light.Photo">
+                    <span class="card-title">@light.Name</span>
+                </div>
+                <div class="card-content">
+                    <p>
+                        @light.Description
+                    </p>
+                </div>
+                <div class="card-action">
+                    <a href="#">@string.Format("{0:C}", light.SalePrice)</a>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+
+</div>
+

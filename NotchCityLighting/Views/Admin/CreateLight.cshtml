@@ -1,0 +1,43 @@
+﻿@model NotchCityLighting.Web.ViewModels.LightDO
+@{
+    ViewBag.Title = "CreateLight";
+}
+<div class="container">
+    <h2>Add New Light</h2>
+    <div class="row">
+        @if (Model.Photo == null)
+        {
+            <div class="row">   
+                @using (Html.BeginForm("CreateLight", "Admin", FormMethod.Post, new { @class = "col s12", enctype = "multipart/form-data" }))
+                {
+                    <div class="row">
+                        <div class="input-field col s12">
+                            @Html.TextBoxFor(model => model.Name)
+                            <label>Name</label>
+                        </div>
+                        <div class="input-field col s12">
+                            @Html.TextAreaFor(model => model.Description, new { @class="materialize-textarea", length="250" })
+                            <label>Description</label>
+                        </div>
+                        <div class="input-field col s12">
+                            @Html.TextBoxFor(model => model.Photo)
+                            <label>Photo Url</label>
+                        </div>
+                        <div class="input-field col s6">
+                            @Html.TextBoxFor(model => model.SalePrice)
+                            <label>Sale Price</label>
+                        </div>
+                        <div class="input-field col s6">
+                            @Html.TextBoxFor(model => model.SoldPrice)
+                            <label>Sold Price</label>
+                        </div>
+                    </div>
+                    <button class="btn waves-effect waves-light btn-large" type="submit" name="action">
+                        Submit
+                        <i class="material-icons right">send</i>
+                    </button>
+                }
+            </div>
+        }
+    </div>
+</div>
